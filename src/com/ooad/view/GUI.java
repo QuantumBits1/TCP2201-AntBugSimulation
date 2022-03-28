@@ -1,4 +1,9 @@
-package com.company;
+package com.ooad.view;
+
+import com.ooad.controller.AntsBugsWorld;
+import com.ooad.model.Ant;
+import com.ooad.model.Bug;
+import com.ooad.model.Organism;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,10 +16,10 @@ public class GUI extends JFrame {
     private JLabel[][] Mapper;
     private static int dimX;
     private static int dimY;
-    private Icon antIcon = new ImageIcon("ant.gif");
-    private Icon bugIcon = new ImageIcon("bug3.gif");
-    private Icon emptyIcon = new ImageIcon("blank2.png");
-    private JLabel numAnt = new JLabel("No. of ant: "+AntsBugsWorld.getNoOfAnt());
+    private Icon antIcon = new ImageIcon("src/res/ant.gif");
+    private Icon bugIcon = new ImageIcon("src/res/bug3.gif");
+    private Icon emptyIcon = new ImageIcon("src/res/blank2.png");
+    private JLabel numAnt = new JLabel("No. of ant: "+ AntsBugsWorld.getNoOfAnt());
     private JLabel numBug = new JLabel("No. of bug: "+AntsBugsWorld.getNoOfBug());
 
     public GUI(int dimX, int dimY){

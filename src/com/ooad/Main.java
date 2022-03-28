@@ -1,4 +1,6 @@
-package com.company;
+package com.ooad;
+
+import com.ooad.controller.AntsBugsWorld;
 
 //Main class will run the program
 public class Main {

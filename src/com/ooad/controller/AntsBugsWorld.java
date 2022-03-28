@@ -1,4 +1,9 @@
-package com.company;
+package com.ooad.controller;
+
+import com.ooad.view.GUI;
+import com.ooad.model.Ant;
+import com.ooad.model.Bug;
+import com.ooad.model.Organism;
 
 import javax.swing.*;
 import java.awt.event.KeyEvent;

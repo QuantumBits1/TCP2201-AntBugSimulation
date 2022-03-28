@@ -1,7 +1,7 @@
-package com.company;
+package com.ooad.model;
 
 //Organism class as the Model
-public  class Organism {
+public class Organism {
     protected int positionX;
     protected int positionY;
     protected int timeStep;
@@ -40,14 +40,14 @@ public  class Organism {
     }
 
     //to update the horizontal position of organism
-    protected  void setX(int x){positionX = x;}
+    public void setX(int x){positionX = x;}
 
     //to update the vertical position of organism
-    protected  void setY(int y){positionY = y;}
+    public void setY(int y){positionY = y;}
 
     //to read the horizontal position of organism
-    protected  int getX(){return positionX;}
+    public int getX(){return positionX;}
 
     //to read the vertical position of organism
-    protected  int getY(){return positionY;}
+    public int getY(){return positionY;}
 }
