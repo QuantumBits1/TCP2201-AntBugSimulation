@@ -1,4 +1,4 @@
-#TCP2201 - Ants & Bugs Simulation Program
+# TCP2201 - Ants & Bugs Simulation Program
 
 This is an assignment project for TCP2201 Object-Oriented Analysis & Design subject which was
 done in around 2020 by a group of four students. The aim is to apply all concepts learnt 
@@ -10,9 +10,9 @@ Hence, this project will be updated from time-to-time with the purpose to improv
 to apply more concepts of object-oriented programming as overall. Hope this simple project can 
 be taken as reference by the public.
 
-##How to run?
+## How to run?
 1. Clone or download this project into your local machine.
-2. Compile the project using Java JDK 13 and using any IDE of your choice.
+2. Compile the project using Java JDK 13 and using any IDE of your choice (I'm using Intellij).
 3. Run the program and try to hit the enter key to see the simulation of ants & bugs by triggering
 the interaction between them.
 
